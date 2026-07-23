@@ -315,7 +315,7 @@ key LEFT_BRACKET {
     base:                               '\u00FC' # ü
     shift:                              '\u00DC' # Ü
     capslock:                           '\u017F' # ſ
-    ralt:                               '\u2212' # −
+    ralt:                               '-'      # Regular hypen!
     shift+capslock:                     '\u03C2' # ς
     capslock+ralt:                      '\u222A' # ∪
 }
