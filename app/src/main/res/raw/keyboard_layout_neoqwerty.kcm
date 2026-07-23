@@ -275,7 +275,7 @@ key H {
     base:                               'h'
     shift:                              'H'
     capslock:                           '?'
-    ralt:                               '\u00BF' # ¿
+    ralt:                               '/'
     shift+capslock:                     '\u03C8' # ψ
     capslock+ralt:                      '\u03A8' # Ψ
 }
@@ -442,7 +442,7 @@ key Y {
     base:                               'y'
     shift:                              'Y'
     capslock:                           '!'
-    ralt:                               '\u00A1' # ¡
+    ralt:                               '*'
     shift+capslock:                     '\u03C5' # υ
     capslock+ralt:                      '\u2207' # ∇
 }
