@@ -189,13 +189,13 @@ key 0 {
 }
 
 key MINUS {
-    label:                              '\u1E9E' # ẞ
-    base:                               '\u00DF' # ß
-    shift:                              '\u1E9E' # ẞ
+    label:                              '-'
+    base:                               '-'
+    shift:                              '\u2014' # em dash
     capslock:                           none
     ralt:                               '-'
-    shift+capslock:                     '\u2218' # ∘
-    capslock+ralt:                      '\u03C2' # ς
+    shift+capslock:                     '\u2011' # ‑
+    capslock+ralt:                      '\u254C' # ╌
 }
 
 key EQUALS {
@@ -566,11 +566,11 @@ key SPACE {
 }
 
 key SLASH {
-    label:                              '-'
-    base:                               '-'
-    shift:                              '\u2014' # em dash
+    label:                              '\u1E9E' # ẞ
+    base:                               '\u00DF' # ß
+    shift:                              '\u1E9E' # ẞ
     capslock:                           ';'
     ralt:                               ';'
-    shift+capslock:                     '\u2011' # ‑
-    capslock+ralt:                      '\u254C' # ╌
+    shift+capslock:                     '\u2218' # ∘
+    capslock+ralt:                      '\u03C2' # ς
 }
