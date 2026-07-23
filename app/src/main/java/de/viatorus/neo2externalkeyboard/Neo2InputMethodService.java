@@ -38,7 +38,7 @@ public class Neo2InputMethodService extends InputMethodService {
         put(KeyEvent.KEYCODE_F, KeyEvent.KEYCODE_DPAD_RIGHT);
         put(KeyEvent.KEYCODE_G, KeyEvent.KEYCODE_MOVE_END);
         // Row 4
-        put(KeyEvent.KEYCODE_Y, KeyEvent.KEYCODE_ESCAPE);
+        put(KeyEvent.KEYCODE_Z, KeyEvent.KEYCODE_ESCAPE);
         put(KeyEvent.KEYCODE_X, KeyEvent.KEYCODE_TAB);
         put(KeyEvent.KEYCODE_C, KeyEvent.KEYCODE_INSERT);
         put(KeyEvent.KEYCODE_V, KeyEvent.KEYCODE_ENTER);

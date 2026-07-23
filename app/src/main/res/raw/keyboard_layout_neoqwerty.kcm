@@ -30,7 +30,7 @@ map key 17  W
 map key 18  E
 map key 19  R
 map key 20  T
-map key 21  Z
+map key 21  Y
 map key 22  U
 map key 23  I
 map key 24  O
@@ -57,7 +57,7 @@ map key 43 BACKSLASH # MOD3
 # Remap row 4
 
 map key 86 PLUS # MOD4
-map key 44 Y
+map key 44 Z
 map key 45 X
 map key 46 C
 map key 47 V
@@ -441,8 +441,8 @@ key Y {
     label:                              'Y'
     base:                               'y'
     shift:                              'Y'
-    capslock:                           '#'
-    ralt:                               fallback ESCAPE
+    capslock:                           '!'
+    ralt:                               '\u00A1' # ¡
     shift+capslock:                     '\u03C5' # υ
     capslock+ralt:                      '\u2207' # ∇
 }
@@ -499,8 +499,8 @@ key Z {
     label:                              'Z'
     base:                               'z'
     shift:                              'Z'
-    capslock:                           '!'
-    ralt:                               '\u00A1' # ¡
+    capslock:                           '#'
+    ralt:                               fallback ESCAPE
     shift+capslock:                     '\u03B6' # ζ
     capslock+ralt:                      '\u2124' # ℤ
 }
